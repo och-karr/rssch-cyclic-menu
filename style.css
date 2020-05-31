@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.menu__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 0;
+    min-width: 350px;
+    list-style-type: none;
+}
+.menu__item {
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border-bottom: none;
+}
+
+.menu__link {
+    color: #000;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.active {
+    border-bottom: 3px dotted aquamarine;
+}
